@@ -1,7 +1,7 @@
 Lorenz
 ======
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jyalim/rcworkshops/master?filepath=intro-python%2Florenz%2FLorenz.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jyalim/rcworkshops/master?urlpath=lab/intro-python/lorenz/Lorenz.ipynb)
 
 
 Forked from [jupyterlab demo][0]. Added multiprocessing to the
