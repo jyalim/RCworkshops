@@ -1,5 +1,5 @@
 ASU RC Workshops
 ================
 
-This reposistory contains the materials used in workshops run by Arizona
+This repository contains the materials used in workshops run by Arizona
 State University's Research Computing department.
