@@ -5,12 +5,12 @@ from scipy import integrate
 import multiprocessing as mp
 from functools import partial
 
-SIGMA=10.0
-BETA = 8/3
-RHO  = 28
+SIGMA    = 10.0
+BETA     = 8/3
+RHO      = 28
 max_time = 20.0
-N = 20
-PROCS= 10
+N        = 20
+PROCS    = 1
 
 def lorenz_deriv(t0,x_y_z,sigma,beta,rho):
     """Compute the time-derivative of a Lorenz system."""
@@ -23,7 +23,8 @@ def mysolve(t,x0,sigma=SIGMA,beta=BETA,rho=RHO):
     x=integrate.solve_ivp(RHS,ts,x0,method='RK23',t_eval=t)
     return x 
 
-def solve_lorenz(sigma=SIGMA, beta=BETA, rho=RHO, procs=PROCS):
+#def solve_lorenz(sigma=SIGMA, beta=BETA, rho=RHO, procs=PROCS):
+def solve_lorenz(sigma=SIGMA, beta=BETA, rho=RHO): #, procs=PROCS):
     """Plot a solution to the Lorenz differential equations."""
     ts = np.r_[0,max_time]
 
@@ -43,7 +44,7 @@ def solve_lorenz(sigma=SIGMA, beta=BETA, rho=RHO, procs=PROCS):
     # Solve for the trajectories
     t = np.linspace(0, max_time, int(250*max_time))
 
-    Pool= mp.Pool(processes=procs)
+    Pool= mp.Pool(processes=PROCS)
     iXt = Pool.starmap(
         partial(mysolve,sigma=sigma,beta=beta,rho=rho),
         [(t,x0k) for x0k in x0]
