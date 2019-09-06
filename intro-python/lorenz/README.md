@@ -1,7 +1,10 @@
 Lorenz
 ======
 
-Forked from [0](jupyterlab demo). Added multiprocessing to the
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jyalim/rcworkshops/master?filepath=intro-python%2Florenz%2FLorenz.ipynb)
+
+
+Forked from [jupyterlab demo][0]. Added multiprocessing to the
 trajectory simulations, and updated plots.
 
 Requirements
