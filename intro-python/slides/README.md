@@ -1,7 +1,7 @@
 Intro Python Slides
 ===================
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jyalim/RCworkshops/master?filepath=intro-python%2Fslides%2FIntroPython.ipynb)))]]
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jyalim/RCworkshops/master?filepath=intro-python%2Fslides%2FIntroPython.ipynb)
 
 Adapted from PEARC19 talk. 
 
