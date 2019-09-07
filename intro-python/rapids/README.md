@@ -1,7 +1,11 @@
 Rapids
 ======
 
-Developed from [0](this blog) as well as [1](this one). 
+Developed from [this blog][0] as well as [this one][1]. 
+
+The dependencies are specified in the conda generated configuration file
+`environment.yml`, which may be used to generate a new anaconda environment.
+
 
 
 

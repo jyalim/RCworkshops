@@ -6,7 +6,5 @@ notebook.
 
 See the ipython notebook for details.
 
-Requirements
-------------
-
-See the parent directory README.md for the required conda env.
+The conda configuration is in `req.txt`. See the header of that file to
+see details on how to recreate the build.
