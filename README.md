@@ -5,3 +5,9 @@ ASU RC Workshops
 
 This repository contains the materials used in workshops run by Arizona
 State University's Research Computing department.
+
+Intro to Python on HPC
+----------------------
+
+The materials for an August 26th, 2019 workshop are included in the
+directory `intro-python/`. 
