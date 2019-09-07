@@ -1,7 +1,7 @@
 Lorenz
 ======
 
-[![Binder (use filetree explorer to get to this directory)](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jyalim/rcworkshops/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jyalim/rcworkshops/master?urlpath=lab)*(use filetree explorer to get to this directory)*
 
 
 Forked from [jupyterlab demo][0]. Added multiprocessing to the
