@@ -9,7 +9,7 @@ trajectory simulations, and updated plots.
 
 
 
-<img src="assets/ASURC_logo.png" width="240">
+<img src="../../assets/ASURC_logo.png" width="240">
 
 
 [0]: https://github.com/jupyterlab/jupyterlab-demo

@@ -9,7 +9,7 @@ The dependencies are specified in the conda generated configuration file
 
 
 
-<img src="assets/ASURC_logo.png" width="240">
+<img src="../../assets/ASURC_logo.png" width="240">
 
 
 
