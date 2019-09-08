@@ -63,4 +63,4 @@ successful
 
 
 
-<img src="assets/ASURC_logo.png" width="240">
+<img src="/assets/ASURC_logo.png" width="240">
