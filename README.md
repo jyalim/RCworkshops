@@ -11,3 +11,8 @@ Intro to Python on HPC
 
 The materials for an August 26th, 2019 workshop are included in the
 directory `intro-python/`. 
+
+
+
+
+![ASU RC Logo](/assets/ASURC_logo.png)

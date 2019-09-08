@@ -17,6 +17,9 @@ Helpful Links
 * [Link to request an ASU HPC account][2]
 
 
+![ASURC Logo](/assets/ASURC_logo.png)
+
+
 [0]: https://jupyterhub.rc.asu.edu
 [1]: https://tinyurl.com/PEARC19Py
 [2]: https://cores.research.asu.edu/research-computing/get-started/create-an-account
