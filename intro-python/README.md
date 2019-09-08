@@ -17,7 +17,7 @@ Helpful Links
 * [Link to request an ASU HPC account][2]
 
 
-![ASURC Logo](/assets/ASURC_logo.png)
+<img src/>
 
 
 [0]: https://jupyterhub.rc.asu.edu
