@@ -1,0 +1,11 @@
+name: pyintel
+channels:
+  - intel
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - ipython
+  - pandas

@@ -13,8 +13,19 @@ The full code also compute partial derivatives using MKL.
 Before Starting
 ---------------
 
-Be sure that you have followed the instructions in the main README.md,
-which specify using the intel provided python packages from anaconda
+Note that this exercise involves compiling a fortran module with intel
+compiliers. To succesfully generate this module, an anaconda environment
+must be created. From this directory (or with the `environment.yml` in
+this directory handy), conduct the following interactive session:
+
+    # request 1 core of the debug partition for max time (15m) 
+    interactive --partition debug --qos debug -t 15 -n 1
+    # Once the debug core is allocated, load the intel compiler from 
+    # 2019 into the environment, and load anaconda python 
+    module load intel/2019.4 anaconda/py3
+    # Create the intel python environment
+    conda env create -f environment.yml
+
 
 Compiling interactively
 -----------------------
@@ -26,7 +37,8 @@ From the headnode:
     # Once the debug core is allocated, load the intel compiler from 
     # 2019 into the environment, and load anaconda python 
     module load intel/2019.4 anaconda/py3
-    # load appropriate anaconda env (see main README.md)
+    # activate the pyintel conda environment specified in the previous
+    # section
     source activate pyintel
     # compile the fortran code with f2py
     bash make.sh
