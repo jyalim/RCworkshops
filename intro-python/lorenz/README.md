@@ -6,12 +6,10 @@ Lorenz
 Forked from [jupyterlab demo][0]. Added multiprocessing to the
 trajectory simulations, and updated plots.
 
-Requirements
-------------
-
-See parent `README.md` for conda env.
 
 
+
+<img src="assets/ASURC_logo.png" width="240">
 
 
 [0]: https://github.com/jupyterlab/jupyterlab-demo

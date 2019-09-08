@@ -9,5 +9,9 @@ The dependencies are specified in the conda generated configuration file
 
 
 
+<img src="assets/ASURC_logo.png" width="240">
+
+
+
 [0]: https://matthewrocklin.com/blog/work/2018/12/17/gpu-python-challenges
 [1]: https://towardsdatascience.com/heres-how-you-can-accelerate-your-data-science-on-gpu-4ecf99db3430

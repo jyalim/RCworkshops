@@ -10,3 +10,7 @@ See the ipython notebook for details.
 
 The conda configuration is in `req.txt`. See the header of that file to
 see details on how to recreate the build.
+
+
+
+<img src="assets/ASURC_logo.png" width="240">

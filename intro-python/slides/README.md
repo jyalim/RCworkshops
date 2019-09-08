@@ -10,4 +10,6 @@ Download original training materials from [this dropbox link][0].
 
 
 
+<img src="assets/ASURC_logo.png" width="240">
+
 [0]: https://tinyurl.com/PEARC19Py
