@@ -15,4 +15,4 @@ directory `intro-python/`.
 
 
 
-![ASU RC Logo](/assets/ASURC_logo.png)
+![ASU RC Logo](/assets/ASURC_logo.png =360x)
