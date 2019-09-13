@@ -1,0 +1,163 @@
+NPROC: 28
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma1_wiener.dat
+0 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma2_wiener.dat
+0 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma3_wiener.dat
+0 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma4_wiener.dat
+0 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma5_wiener.dat
+0 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma6_wiener.dat
+0 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma7_wiener.dat
+0 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma8_wiener.dat
+0 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu0_sigma9_wiener.dat
+0 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma1_wiener.dat
+1 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma2_wiener.dat
+1 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma3_wiener.dat
+1 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma4_wiener.dat
+1 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma5_wiener.dat
+1 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma6_wiener.dat
+1 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma7_wiener.dat
+1 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma8_wiener.dat
+1 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu1_sigma9_wiener.dat
+1 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma1_wiener.dat
+2 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma2_wiener.dat
+2 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma3_wiener.dat
+2 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma4_wiener.dat
+2 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma5_wiener.dat
+2 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma6_wiener.dat
+2 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma7_wiener.dat
+2 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma8_wiener.dat
+2 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu2_sigma9_wiener.dat
+2 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma1_wiener.dat
+3 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma2_wiener.dat
+3 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma3_wiener.dat
+3 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma4_wiener.dat
+3 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma5_wiener.dat
+3 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma6_wiener.dat
+3 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma7_wiener.dat
+3 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma8_wiener.dat
+3 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu3_sigma9_wiener.dat
+3 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma1_wiener.dat
+4 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma2_wiener.dat
+4 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma3_wiener.dat
+4 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma4_wiener.dat
+4 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma5_wiener.dat
+4 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma6_wiener.dat
+4 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma7_wiener.dat
+4 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma8_wiener.dat
+4 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu4_sigma9_wiener.dat
+4 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma1_wiener.dat
+5 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma2_wiener.dat
+5 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma3_wiener.dat
+5 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma4_wiener.dat
+5 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma5_wiener.dat
+5 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma6_wiener.dat
+5 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma7_wiener.dat
+5 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma8_wiener.dat
+5 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu5_sigma9_wiener.dat
+5 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma1_wiener.dat
+6 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma2_wiener.dat
+6 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma3_wiener.dat
+6 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma4_wiener.dat
+6 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma5_wiener.dat
+6 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma6_wiener.dat
+6 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma7_wiener.dat
+6 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma8_wiener.dat
+6 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu6_sigma9_wiener.dat
+6 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma1_wiener.dat
+7 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma2_wiener.dat
+7 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma3_wiener.dat
+7 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma4_wiener.dat
+7 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma5_wiener.dat
+7 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma6_wiener.dat
+7 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma7_wiener.dat
+7 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma8_wiener.dat
+7 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu7_sigma9_wiener.dat
+7 9
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma1_wiener.dat
+8 1
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma2_wiener.dat
+8 2
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma3_wiener.dat
+8 3
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma4_wiener.dat
+8 4
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma5_wiener.dat
+8 5
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma6_wiener.dat
+8 6
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma7_wiener.dat
+8 7
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma8_wiener.dat
+8 8
+srun -N 1 -n 1 --exclusive python myscript.py dat/mu8_sigma9_wiener.dat
+8 9

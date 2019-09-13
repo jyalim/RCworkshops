@@ -1,0 +1,12 @@
+                                                                 
+                                                                                
+##############################################                                  
+INFORMATION                                                                     
+##############################################                                  
+                                                                                
+You have loaded the base anaconda environment. For specialized environments,    
+you must first enable them with `source activate [env]`.                        
+                                                                                
+For a full list of environments, type `conda env list`                          
+  
+convert: /packages/7x/anaconda3/5.3.0/lib/./libuuid.so.1: no version information available (required by /lib64/libSM.so.6)
