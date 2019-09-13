@@ -9,6 +9,14 @@ python workshop offered by ASU's Research Computing department.
 Some of the sub directories offer binder links to host the notebooks and
 labs, but note that these are not being run on ASU resources.
 
+Install Conda Env
+-----------------
+
+    interactive -t 15
+    module load anaconda/py3
+    conda env create -f environment.yml
+    source activate pyintel
+
 Helpful Links
 -------------
 
