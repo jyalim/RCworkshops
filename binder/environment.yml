@@ -10,5 +10,5 @@ dependencies:
   - pandas
   - bokeh
   - rise
-  - natsort
   - ephem
+  - natsort
