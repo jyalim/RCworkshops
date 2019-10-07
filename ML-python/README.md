@@ -33,6 +33,20 @@ From the cluster:
     conda env create -f environment.yml
     source activate pyintel
 
+Use Conda Env
+-------------
+
+From a compute node:
+
+    module load anaconda/py3
+    source activate pyintel
+
+or (on a gpu-enabled compute node):
+
+    module load anaconda/py3
+    source activate rapidsWS
+
+
 Helpful Links
 -------------
 
