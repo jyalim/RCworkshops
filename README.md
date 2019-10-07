@@ -12,11 +12,17 @@ Intro to Python on HPC
 The materials for an August 26th, 2019 workshop are included in the
 directory `intro-python/`. 
 
-Data Handing with Python on HPC
--------------------------------
+Data Handling with Python on HPC
+--------------------------------
 
 The materials for a September 13th, 2019 workshop are included in the
 directory `data-python/`. 
+
+Machine Learning with Python on HPC
+-----------------------------------
+
+The materials for an October 7th, 2019 workshop are included in the
+directory `ML-python/`. 
 
 
 
