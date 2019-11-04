@@ -1,7 +1,7 @@
 keras
 =====
 
-[Nice Keras Tutorial Repository][0]
+[Nice Keras Tutorial Repository and reference][0]
 
 Setup
 -----
@@ -21,6 +21,6 @@ Run a test on the following file:
     python 1-basic-cnn.py
 
 
-
+<img src="../../assets/ASURC_logo.png" width="240">
 
 [0]: https://github.com/buomsoo-kim/Easy-deep-learning-with-Keras

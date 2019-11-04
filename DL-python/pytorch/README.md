@@ -5,9 +5,10 @@ pytorch examples
 * [Data Loading Example ipynb download][1]
 * [Transfer Learning tutorial][2]
 * [RNN tutorial][3]
-- [Nice RNN link from tutorial][4]
+* [Nice RNN link from tutorial][4]
 
 
+<img src="../../assets/ASURC_logo.png" width="240">
 
 
 [0]: https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
