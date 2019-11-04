@@ -1,7 +1,8 @@
 keras
 =====
 
-[Nice Keras Tutorial Repository and reference][0]
+The materials hosted [in this nice tutorial repository][0] are used for
+reference in this section.
 
 Setup
 -----

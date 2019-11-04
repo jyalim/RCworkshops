@@ -24,6 +24,11 @@ Machine Learning with Python on HPC
 The materials for an October 7th, 2019 workshop are included in the
 directory `ML-python/`. 
 
+Deep Learning with Python on HPC
+--------------------------------
+
+The materials for an November 4th, 2019 workshop are included in the
+directory `DL-python/`. 
 
 
 

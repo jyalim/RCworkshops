@@ -1,11 +1,26 @@
 pytorch examples
 ================
 
+The tutorial pages provided by `pytorch` are used for this section.
+
 * [Data Loading Example tutorial][0]
 * [Data Loading Example ipynb download][1]
 * [Transfer Learning tutorial][2]
 * [RNN tutorial][3]
 * [Nice RNN link from tutorial][4]
+
+Setup
+-----
+
+Tested on node `cg20-10` (8 Tesla V100s)
+
+Run the following `conda` command to install the `pytorch` enviroment
+built for this exercise
+
+    interactive -t 60 -p gpu -q wildfire --gres=gpu:V100:1
+    module load anaconda/py3
+    conda env create -f environment.yml
+    source activate pytorch
 
 
 <img src="../../assets/ASURC_logo.png" width="240">
