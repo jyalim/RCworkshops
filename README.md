@@ -9,26 +9,26 @@ State University's Research Computing department.
 Intro to Python on HPC
 ----------------------
 
-The materials for an August 26th, 2019 workshop are included in the
-directory `intro-python/`. 
+The materials for an introduction to python on HPC systems are included
+in the directory `intro-python/`. 
 
 Data Handling with Python on HPC
 --------------------------------
 
-The materials for a September 13th, 2019 workshop are included in the
-directory `data-python/`. 
+The materials for an HPC data handling with python workshop are
+included in the directory `data-python/`. 
 
 Machine Learning with Python on HPC
 -----------------------------------
 
-The materials for an October 7th, 2019 workshop are included in the
-directory `ML-python/`. 
+The materials for a ML python HPC workshop are included in the directory
+`ML-python/`. 
 
 Deep Learning with Python on HPC
 --------------------------------
 
-The materials for an November 4th, 2019 workshop are included in the
-directory `DL-python/`. 
+The materials for a deep learning python HPC workshop are included in
+the directory `DL-python/`. 
 
 
 
