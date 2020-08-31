@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name="f2py compile" 
 #SBATCH --ntasks=1                # Number of cores requested
-#SBATCH --qos=debug               # The queue (line) we are in
+#SBATCH --qos=wildfire            # The queue (line) we are in
 #SBATCH --partition=debug         # The compute node set to submit to
 #SBATCH --output=sbatch_compile_%j.out
 #SBATCH --error=sbatch_compile_%j.err
