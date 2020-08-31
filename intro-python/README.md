@@ -12,9 +12,9 @@ labs, but note that these are not being run on ASU resources.
 Helpful Links
 -------------
 
-* [Link to RC's Open OnDemand (ASU RC account required)][0]
-* [Link to tutorial slides (dropbox link--no signin required)][1]
-* [Link to request an ASU HPC account][2]
+* [Link to RC's Open OnDemand (ASU RC account required)][1]
+* [Link to tutorial slides (dropbox link--no signin required)][2]
+* [Link to request an ASU HPC account][3]
 
 
 
