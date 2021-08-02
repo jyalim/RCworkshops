@@ -73,9 +73,10 @@ def main(N,tspan,h,gBC=r_[1,1]):
   return T,X,U,toc-tic,err
 
 if __name__ == '__main__':
-  gBC = r_[1.,1]
+  mul = 1
   if len(sys.argv) > 1:
-    gBC *= float(sys.argv[1])
+    mul = float(sys.argv[1])
+  gBC = mul * r_[1.,1]
   N = 32
   tspan = [0,3]
   h = 1e-4
@@ -86,11 +87,11 @@ if __name__ == '__main__':
   print(f'    flux = {gBC[0]}')
   T,X,U,ctime,err = main(N,tspan,h,gBC)
   print(f'Finished (wall time): {ctime}')
-  plt.figure(1,figsize=(10,6))
+  plt.figure(1,figsize=(10,7))
   mycontourf(T,X,U,numpy.linspace(-1,1)*numpy.abs(U).max(),cmap=mycm15,edgecolor='#999999')
   plt.xticks(fontsize=25)
   plt.yticks(fontsize=25)
   plt.xlabel('time',fontsize=30)
   plt.ylabel('space',fontsize=30)
   plt.title('Solution',fontsize=36)
-  plt.savefig(f'figs/out_{int(gBC[0])}.png')
+  plt.savefig(f'figs/out_{int(mul):03d}.png')
