@@ -37,13 +37,13 @@ def rk4(f,time,u):
     v = norm(U[k])
   return U
 
-def main(N,tspan,h):
+def main(N,tspan,h,gBC=r_[1,1]):
   # u_t = u_xx -1<x<1, with Neumann boundary conditions
   D2,D,x = cheb.cheb(N) 
   x = -x    # Reverse order of x so x(1) = -1.
   D = -D    # D is affected by reorder.
   u0 = cos(pi*x)+0.2*cos(5*pi*x)+1; # initial distribution.
-  gBC= r_[1,1]                # Von Neumann Boundary Conditions
+# gBC= r_[1,1]                # Von Neumann Boundary Conditions
   B  = D2[1:-1,[0,-1]]        # u0 and uN still want to party,
   D2i= D2[1:-1,1:-1];         # but they werent invited to D2.
   A  = get_corner_elements(D) # Dem no flux conditions
@@ -71,3 +71,26 @@ def main(N,tspan,h):
   # float is necessary to prevent 0-d array bug
   err = float(norm(D@U[-1]-1)/sqrt(N))
   return T,X,U,toc-tic,err
+
+if __name__ == '__main__':
+  gBC = r_[1.,1]
+  if len(sys.argv) > 1:
+    gBC *= float(sys.argv[1])
+  N = 32
+  tspan = [0,3]
+  h = 1e-4
+  print('Running heat equation solver with')
+  print(f'       N = {N}')
+  print(f'   tspan = [{tspan[0]},{tspan[1]}]')
+  print(f'timestep = {h}')
+  print(f'    flux = {gBC[0]}')
+  T,X,U,ctime,err = main(N,tspan,h,gBC)
+  print(f'Finished (wall time): {ctime}')
+  plt.figure(1,figsize=(10,6))
+  mycontourf(T,X,U,numpy.linspace(-1,1)*numpy.abs(U).max(),cmap=mycm15,edgecolor='#999999')
+  plt.xticks(fontsize=25)
+  plt.yticks(fontsize=25)
+  plt.xlabel('time',fontsize=30)
+  plt.ylabel('space',fontsize=30)
+  plt.title('Solution',fontsize=36)
+  plt.savefig(f'figs/out_{int(gBC[0])}.pdf')
