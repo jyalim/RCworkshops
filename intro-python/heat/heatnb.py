@@ -93,4 +93,4 @@ if __name__ == '__main__':
   plt.xlabel('time',fontsize=30)
   plt.ylabel('space',fontsize=30)
   plt.title('Solution',fontsize=36)
-  plt.savefig(f'figs/out_{int(gBC[0])}.pdf')
+  plt.savefig(f'figs/out_{int(gBC[0])}.png')
