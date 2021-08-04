@@ -4,7 +4,7 @@
 #SBATCH -t 5
 #SBATCH -c 2
 #SBATCH -o slurm.%A.%a.%j.out
-#SBATCH --array=1-4
+#SBATCH --array=1-100
 #SBATCH --export=NONE
 
 module load anaconda/py3
