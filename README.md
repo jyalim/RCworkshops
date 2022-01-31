@@ -22,7 +22,8 @@ Machine Learning with Python on HPC
 -----------------------------------
 
 The materials for a ML python HPC workshop are included in the directory
-`ML-python/`. 
+`ML-python/`. Materials for a 90 minute workshop in the RMACC symposium
+are provided under `ML90-python/`.
 
 Deep Learning with Python on HPC
 --------------------------------
