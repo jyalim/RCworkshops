@@ -93,5 +93,5 @@ if __name__ == '__main__':
   plt.yticks(fontsize=25)
   plt.xlabel('time',fontsize=30)
   plt.ylabel('space',fontsize=30)
-  plt.title('Solution',fontsize=36)
+  plt.title(f'Solution case: {int(mul):3d}',fontsize=36)
   plt.savefig(f'figs/out_{int(mul):03d}.png')

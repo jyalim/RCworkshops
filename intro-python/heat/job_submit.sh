@@ -3,7 +3,7 @@
 #SBATCH -q normal
 #SBATCH -t 5
 #SBATCH -c 2
-#SBATCH -o slurm.%A.%a.%j.out
+#SBATCH -o log/slurm.%A.%a.%j.out
 #SBATCH --array=1-100
 #SBATCH --export=NONE
 

@@ -1,5 +1,5 @@
 from matplotlib import use, rcParams, cm, colors,font_manager
-use('Agg')
+#use('Agg')
 import numpy, pylab
 import ctypes
 from sys import path
