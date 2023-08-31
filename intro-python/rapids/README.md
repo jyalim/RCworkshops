@@ -7,8 +7,7 @@ Developed from [this blog][0] as well as [this one][1].
 
 <img 
   src="https://github.com/ASU-KE/rc-assets/blob/main/logos/ASURC_color_600.png?raw=true" 
-  width="240"
->
+  width="240" >
 
 
 
