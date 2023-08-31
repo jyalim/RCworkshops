@@ -1,0 +1,18 @@
+name: pyintel
+channels:
+  - intel
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - ipython
+  - pandas
+  - ipykernel
+  - ipywidgets=7
+  - viola
+  - plotly
+  - bokeh
+  - natsort
