@@ -14,8 +14,7 @@ Helpful Links
 
 <img 
   src="https://github.com/ASU-KE/rc-assets/blob/main/logos/ASURC_color_600.png?raw=true" 
-  width="240"
->
+  width="240" >
 
 [0]: http://links.asu.edu/learn
 [1]: https://sol.asu.edu
