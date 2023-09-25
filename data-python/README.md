@@ -1,5 +1,5 @@
-Data Handling with Pyhon on the Sol Supercomputer
-=================================================
+Data Handling with Python on the Sol Supercomputer
+==================================================
 
 These are the materials that are presented for the python workshop on
 data handling offered by ASU's Research Computing department ([more info
