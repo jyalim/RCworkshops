@@ -14,3 +14,8 @@ To interact with some of these materials, we recommend using
 
 [sol]: https://sol.asu.edu
 [3]: https://github.com/rasbt/python-machine-learning-book-2nd-edition
+
+<img 
+  src="https://github.com/ASU-KE/rc-assets/blob/main/logos/ASURC_color_600.png?raw=true" 
+  width="240" >
+
