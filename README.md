@@ -2,35 +2,34 @@ ASU RC Workshops
 ================
 
 This repository contains the materials used in workshops run by Arizona
-State University's Research Computing department.
+State University's Research Computing department. The directories
+`intro-python/`, `data-python/`, `ML-python/`, and `DL-python/` are for
+workshops on the Sol supercomputer. Older materials for the Agave
+supercomputer are available under `AGAVE/`.
 
-NOTE This is a work in progress, updating Agave trainings for the new
-flagship supercomputer, Sol.
+Intro to Python on the Sol supercomputer
+----------------------------------------
 
-Intro to Python on HPC
-----------------------
+The materials for an introduction to python on the Sol supercomputer are
+included in the directory `intro-python/`. 
 
-The materials for an introduction to python on HPC systems are included
-in the directory `intro-python/`. 
+Data Handling with Python
+-------------------------
 
-Data Handling with Python on HPC
---------------------------------
+The materials for a data handling with python workshop are included in
+the directory `data-python/`. 
 
-The materials for an HPC data handling with python workshop are
-included in the directory `data-python/`. 
+Machine Learning with Python
+----------------------------
 
-Machine Learning with Python on HPC
------------------------------------
+The materials for a ML python workshop are included in the directory
+`ML-python/`. 
 
-The materials for a ML python HPC workshop are included in the directory
-`ML-python/`. Materials for a 90 minute workshop in the RMACC symposium
-are provided under `ML90-python/`.
+Deep Learning with Python
+-------------------------
 
-Deep Learning with Python on HPC
---------------------------------
-
-The materials for a deep learning python HPC workshop are included in
-the directory `DL-python/`. 
+The materials for a deep learning python workshop are included in the
+directory `DL-python/`. 
 
 
 
