@@ -1,5 +1,5 @@
 import numpy as np
-import pylab as plt
+import matplotlib.pyplot as plt
 from plt_style import *
 from scipy.stats import norm
 import sys
@@ -20,7 +20,7 @@ def main(f):
   for x in X[order]:
     plt.plot(t,x,'-')
   plt.xlim(*t[[0,-1]])
-  plt.ylim(-5,5)
+  plt.ylim(-30,30)
   plt.xlabel(r'$t$')
   plt.ylabel(r'$x_t$')
   plt.title(rf'$\mu=$ {mu} $\sigma=$ {sigma}')
